@@ -1,0 +1,109 @@
+{
+  "hero": {
+    "tagline": "Project Coordinator · PMP®",
+    "name": "Ghazal Shabestani Monfared",
+    "intro": "Biomedical engineer bringing structure to complex projects. I bridge science and execution — coordinating teams, tracking deliverables, and making collaboration seamless.",
+    "location": "Berlin, Germany"
+  },
+
+  "about": {
+    "paragraphs": [
+      "I'm a PMP-certified biomedical engineer with hands-on experience coordinating projects in both startup and academic environments. Working at the intersection of biology and engineering, I naturally took on responsibilities beyond pure R&D — coordinating cross-functional teams, aligning priorities, tracking timelines, and improving workflows.",
+      "I thrive in roles where I can work closely with motivated, collaborative teams, support onboarding and communication, and build systems that make work clearer and more organized.",
+      "I'm particularly interested in opportunities in healthtech, startups, and mission-driven companies where I can combine my technical background with strong organizational and people-focused skills."
+    ],
+    "certification": "PMP® — Project Management Professional",
+    "location": "Berlin, Germany",
+    "languages": ["English", "German (B2)", "Farsi (native)"],
+    "interests": ["Healthtech", "Startups", "Innovation"]
+  },
+
+  "experience": [
+    {
+      "company": "Sarcura GmbH",
+      "role": "Development Engineer Microsystems",
+      "period": "Feb 2022 — Nov 2024",
+      "bullets": [
+        "Took ownership of tracking timelines, tasks, and deliverables, helping the team meet fabrication deadlines consistently.",
+        "Contributed to the fabrication of 200+ microfluidic chips, supporting continuous prototyping of a cell sorting platform for cell therapy applications.",
+        "Conducted thorough testing and evaluation of prototypes and complete systems, ensuring quality standards.",
+        "Led project planning and execution, managing timelines and resources for successful outcomes.",
+        "Collaborated with cross-functional teams to align project goals and enhance development processes."
+      ]
+    },
+    {
+      "company": "Vienna University of Technology",
+      "role": "Project Assistant",
+      "period": "Mar 2020 — Jan 2022",
+      "bullets": [
+        "Designed and fabricated a wound healing-on-a-chip system for biomedical applications.",
+        "Conducted rigorous testing, evaluation, and optimization of prototypes to enhance functionality.",
+        "Utilized cell culture techniques to support experimental validation and system development.",
+        "Developed strong project management and organizational skills navigating academic research processes."
+      ]
+    },
+    {
+      "company": "TU Wien Innovation Incubation Center (i²c)",
+      "role": "Innovation & Startup Programs Participant",
+      "period": "2021",
+      "bullets": [
+        "Selected for the Technology Leveraging Workshop (Bootcamp for Scientists) focused on translating scientific ideas into real-world applications.",
+        "Awarded two Best Pitch prizes (€5,000 + Wild Card) for an innovative project recognized for clarity and impact."
+      ]
+    }
+  ],
+
+  "skills": [
+    {
+      "title": "Project Management",
+      "items": ["Project Planning & Execution", "Timeline & Resource Management", "PMP Methodology", "Workflow Optimization", "Deliverable Tracking"]
+    },
+    {
+      "title": "Collaboration",
+      "items": ["Cross-Functional Team Coordination", "Stakeholder Communication", "Onboarding Support", "Process Improvement"]
+    },
+    {
+      "title": "Technical",
+      "items": ["Microfluidics & Microsystems", "Prototyping & Fabrication", "Quality Assurance & Testing", "Biomedical Engineering", "Cell Culture Techniques"]
+    },
+    {
+      "title": "Entrepreneurship",
+      "items": ["Pitching & Presentation", "Early-Stage Startups", "Technology Commercialization", "Innovation Strategy"]
+    }
+  ],
+
+  "education": [
+    {
+      "school": "FH Technikum Wien",
+      "degree": "MSc Tissue Engineering & Regenerative Medicine",
+      "period": "2017 — 2019"
+    },
+    {
+      "school": "University of Vienna",
+      "degree": "Biochemistry",
+      "period": "2016 — 2017"
+    },
+    {
+      "school": "Mazandaran University",
+      "degree": "Master's degree, Organic Chemistry",
+      "period": ""
+    },
+    {
+      "school": "Mazandaran University of Science and Technology",
+      "degree": "Bachelor's degree, Chemistry",
+      "period": ""
+    }
+  ],
+
+  "publications": [
+    "Microfluidic and Lab on-a-Chip Systems for Cutaneous Wound Healing Studies",
+    "An on-chip wound healing assay fabricated by xurography for evaluation of dermal fibroblast cell migration and wound closure"
+  ],
+
+  "contact": {
+    "headline": "Get in Touch",
+    "text": "I'm open to project coordination and management roles, especially in healthtech and innovation-driven environments. Let's connect.",
+    "linkedin": "https://www.linkedin.com/in/ghazalmonfared",
+    "linkedinLabel": "linkedin.com/in/ghazalmonfared"
+  }
+}

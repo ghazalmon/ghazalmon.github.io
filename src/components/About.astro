@@ -1,4 +1,6 @@
 ---
+import content from '../content/site-content.json';
+const { paragraphs, certification, location, languages, interests } = content.about;
 ---
 
 <section id="about" class="py-20 px-6 bg-white">
@@ -7,39 +9,33 @@
     <div class="w-12 h-1 bg-teal-500 rounded mb-8"></div>
     <div class="grid md:grid-cols-3 gap-10">
       <div class="md:col-span-2">
-        <p class="text-slate-600 leading-relaxed mb-4">
-          I'm a PMP-certified biomedical engineer with hands-on experience coordinating projects in both startup and academic environments. Working at the intersection of biology and engineering, I naturally took on responsibilities beyond pure R&amp;D — coordinating cross-functional teams, aligning priorities, tracking timelines, and improving workflows.
-        </p>
-        <p class="text-slate-600 leading-relaxed mb-4">
-          I thrive in roles where I can work closely with motivated, collaborative teams, support onboarding and communication, and build systems that make work clearer and more organized.
-        </p>
-        <p class="text-slate-600 leading-relaxed">
-          I'm particularly interested in opportunities in healthtech, startups, and mission-driven companies where I can combine my technical background with strong organizational and people-focused skills.
-        </p>
+        {paragraphs.map((p) => (
+          <p class="text-slate-600 leading-relaxed mb-4">{p}</p>
+        ))}
       </div>
       <div class="space-y-5">
         <div>
           <h3 class="text-xs font-semibold text-slate-400 uppercase tracking-wider mb-2">Certification</h3>
-          <p class="text-slate-700 font-medium">PMP&reg; — Project Management Professional</p>
+          <p class="text-slate-700 font-medium">{certification}</p>
         </div>
         <div>
           <h3 class="text-xs font-semibold text-slate-400 uppercase tracking-wider mb-2">Location</h3>
-          <p class="text-slate-700 font-medium">Berlin, Germany</p>
+          <p class="text-slate-700 font-medium">{location}</p>
         </div>
         <div>
           <h3 class="text-xs font-semibold text-slate-400 uppercase tracking-wider mb-2">Languages</h3>
           <div class="flex flex-wrap gap-2">
-            <span class="px-3 py-1 bg-slate-100 text-slate-600 rounded-full text-sm">English</span>
-            <span class="px-3 py-1 bg-slate-100 text-slate-600 rounded-full text-sm">German (B2)</span>
-            <span class="px-3 py-1 bg-slate-100 text-slate-600 rounded-full text-sm">Farsi (native)</span>
+            {languages.map((lang) => (
+              <span class="px-3 py-1 bg-slate-100 text-slate-600 rounded-full text-sm">{lang}</span>
+            ))}
           </div>
         </div>
         <div>
           <h3 class="text-xs font-semibold text-slate-400 uppercase tracking-wider mb-2">Interests</h3>
           <div class="flex flex-wrap gap-2">
-            <span class="px-3 py-1 bg-teal-50 text-teal-700 rounded-full text-sm">Healthtech</span>
-            <span class="px-3 py-1 bg-teal-50 text-teal-700 rounded-full text-sm">Startups</span>
-            <span class="px-3 py-1 bg-teal-50 text-teal-700 rounded-full text-sm">Innovation</span>
+            {interests.map((interest) => (
+              <span class="px-3 py-1 bg-teal-50 text-teal-700 rounded-full text-sm">{interest}</span>
+            ))}
           </div>
         </div>
       </div>

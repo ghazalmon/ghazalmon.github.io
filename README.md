@@ -1,43 +1,41 @@
-# Astro Starter Kit: Minimal
+# Ghazal Shabestani Monfared — Personal Website
 
-```sh
-npm create astro@latest -- --template minimal
-```
+Personal homepage built with [Astro](https://astro.build) and Tailwind CSS.
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+## How to edit the website content
 
-## 🚀 Project Structure
+All text on the website is stored in **one file**:
 
-Inside of your Astro project, you'll see the following folders and files:
+**[`src/content/site-content.json`](src/content/site-content.json)**
 
-```text
-/
-├── public/
-├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+To update the site:
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+1. Go to [site-content.json on GitHub](../../blob/main/src/content/site-content.json)
+2. Click the **pencil icon** (Edit this file)
+3. Change the text you want to update
+4. Click **Commit changes** at the bottom
+5. The site will automatically rebuild and go live within a couple of minutes
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+### What you can change
 
-Any static assets, like images, can be placed in the `public/` directory.
+| Section | What to look for in the file |
+|---------|------------------------------|
+| Top of page | `"hero"` — your name, tagline, intro text |
+| About me | `"about"` — paragraphs, languages, interests |
+| Work experience | `"experience"` — jobs, roles, bullet points |
+| Skills | `"skills"` — skill categories and items |
+| Education | `"education"` — schools and degrees |
+| Publications | `"publications"` — paper titles |
+| Contact | `"contact"` — headline, text, LinkedIn URL |
 
-## 🧞 Commands
+### Important
 
-All commands are run from the root of the project, from a terminal:
+- Keep the quotation marks `"` around text
+- Keep the commas `,` between items
+- Keep the square brackets `[]` around lists
+- If you're unsure, copy the file first as a backup before editing
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+### To update the CV
 
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+1. Go to the `public/` folder on GitHub
+2. Upload a new PDF named `cv-ghazal-monfared.pdf` (replacing the old one)

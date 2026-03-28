@@ -1,22 +1,6 @@
 ---
-const skillGroups = [
-  {
-    title: 'Project Management',
-    skills: ['Project Planning & Execution', 'Timeline & Resource Management', 'PMP Methodology', 'Workflow Optimization', 'Deliverable Tracking'],
-  },
-  {
-    title: 'Collaboration',
-    skills: ['Cross-Functional Team Coordination', 'Stakeholder Communication', 'Onboarding Support', 'Process Improvement'],
-  },
-  {
-    title: 'Technical',
-    skills: ['Microfluidics & Microsystems', 'Prototyping & Fabrication', 'Quality Assurance & Testing', 'Biomedical Engineering', 'Cell Culture Techniques'],
-  },
-  {
-    title: 'Entrepreneurship',
-    skills: ['Pitching & Presentation', 'Early-Stage Startups', 'Technology Commercialization', 'Innovation Strategy'],
-  },
-];
+import content from '../content/site-content.json';
+const skillGroups = content.skills;
 ---
 
 <section id="skills" class="py-20 px-6 bg-white">
@@ -28,7 +12,7 @@ const skillGroups = [
         <div>
           <h3 class="text-sm font-semibold text-teal-700 uppercase tracking-wider mb-4">{group.title}</h3>
           <ul class="space-y-2.5">
-            {group.skills.map((skill) => (
+            {group.items.map((skill) => (
               <li class="text-slate-600 text-sm flex items-start gap-2">
                 <svg class="w-4 h-4 text-teal-400 mt-0.5 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />

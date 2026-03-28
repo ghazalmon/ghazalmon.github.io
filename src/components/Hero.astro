@@ -1,16 +1,17 @@
 ---
+import content from '../content/site-content.json';
+const { tagline, name, intro, location } = content.hero;
 ---
 
 <section class="pt-32 pb-20 md:pt-40 md:pb-28 px-6">
   <div class="max-w-5xl mx-auto">
     <div class="max-w-2xl">
-      <p class="text-teal-600 font-medium mb-3 text-sm tracking-wide uppercase">Project Coordinator &middot; PMP&reg;</p>
+      <p class="text-teal-600 font-medium mb-3 text-sm tracking-wide uppercase">{tagline}</p>
       <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-slate-900 leading-tight tracking-tight">
-        Ghazal Shabestani<br />Monfared
+        {name}
       </h1>
       <p class="mt-6 text-lg text-slate-600 leading-relaxed max-w-xl">
-        Biomedical engineer bringing structure to complex projects.
-        I bridge science and execution — coordinating teams, tracking deliverables, and making collaboration seamless.
+        {intro}
       </p>
       <div class="mt-8 flex flex-wrap gap-4">
         <a
@@ -35,7 +36,7 @@
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
         </svg>
-        Berlin, Germany
+        {location}
       </div>
     </div>
   </div>
