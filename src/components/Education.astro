@@ -9,16 +9,9 @@ const education = content.education;
     <div class="w-12 h-1 bg-teal-500 rounded mb-10"></div>
     <div class="grid sm:grid-cols-2 gap-6">
       {education.map((edu) => (
-        <div class="p-5 rounded-xl border border-slate-200 hover:border-teal-300 transition-colors bg-white">
-          <div class="flex items-start justify-between">
-            <div>
-              <h3 class="font-semibold text-slate-900">{edu.school}</h3>
-              <p class="text-slate-600 text-sm mt-1">{edu.degree}</p>
-            </div>
-            {edu.period && (
-              <span class="text-xs text-slate-400 font-medium whitespace-nowrap ml-4">{edu.period}</span>
-            )}
-          </div>
+        <div class="p-5">
+          <h3 class="font-semibold text-slate-900">{edu.school}</h3>
+          <p class="text-slate-600 text-sm mt-1">{edu.degree}</p>
         </div>
       ))}
     </div>

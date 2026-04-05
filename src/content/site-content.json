@@ -2,19 +2,14 @@
   "hero": {
     "tagline": "Project Coordinator · PMP®",
     "name": "Ghazal Shabestani Monfared",
-    "intro": "Biomedical engineer bringing structure to complex projects. I bridge science and execution — coordinating teams, tracking deliverables, and making collaboration seamless.",
+    "intro": "Biomedical engineer bringing structure to complex projects. I bridge science and execution, coordinating teams, tracking deliverables, and making collaboration seamless.",
     "location": "Berlin, Germany"
   },
 
   "about": {
-    "paragraphs": [
-      "I'm a PMP-certified biomedical engineer with hands-on experience coordinating projects in both startup and academic environments. Working at the intersection of biology and engineering, I naturally took on responsibilities beyond pure R&D — coordinating cross-functional teams, aligning priorities, tracking timelines, and improving workflows.",
-      "I thrive in roles where I can work closely with motivated, collaborative teams, support onboarding and communication, and build systems that make work clearer and more organized.",
-      "I'm particularly interested in opportunities in healthtech, startups, and mission-driven companies where I can combine my technical background with strong organizational and people-focused skills."
-    ],
-    "certification": "PMP® — Project Management Professional",
+    "certification": "PMP® (Project Management Professional)",
     "location": "Berlin, Germany",
-    "languages": ["English", "German (B2)", "Farsi (native)"],
+    "languages": ["English (bilingual)", "German (working proficiency)", "Farsi (native)"],
     "interests": ["Healthtech", "Startups", "Innovation"]
   },
 
@@ -22,7 +17,7 @@
     {
       "company": "Sarcura GmbH",
       "role": "Development Engineer Microsystems",
-      "period": "Feb 2022 — Nov 2024",
+      "period": "Feb 2022 - Nov 2024",
       "bullets": [
         "Took ownership of tracking timelines, tasks, and deliverables, helping the team meet fabrication deadlines consistently.",
         "Contributed to the fabrication of 200+ microfluidic chips, supporting continuous prototyping of a cell sorting platform for cell therapy applications.",
@@ -34,7 +29,7 @@
     {
       "company": "Vienna University of Technology",
       "role": "Project Assistant",
-      "period": "Mar 2020 — Jan 2022",
+      "period": "Mar 2020 - Jan 2022",
       "bullets": [
         "Designed and fabricated a wound healing-on-a-chip system for biomedical applications.",
         "Conducted rigorous testing, evaluation, and optimization of prototypes to enhance functionality.",
@@ -75,35 +70,28 @@
   "education": [
     {
       "school": "FH Technikum Wien",
-      "degree": "MSc Tissue Engineering & Regenerative Medicine",
-      "period": "2017 — 2019"
-    },
-    {
-      "school": "University of Vienna",
-      "degree": "Biochemistry",
-      "period": "2016 — 2017"
+      "degree": "MSc Tissue Engineering & Regenerative Medicine"
     },
     {
       "school": "Mazandaran University",
-      "degree": "Master's degree, Organic Chemistry",
-      "period": ""
-    },
-    {
-      "school": "Mazandaran University of Science and Technology",
-      "degree": "Bachelor's degree, Chemistry",
-      "period": ""
+      "degree": "MSc Organic Chemistry"
     }
   ],
 
   "publications": [
-    "Microfluidic and Lab on-a-Chip Systems for Cutaneous Wound Healing Studies",
-    "An on-chip wound healing assay fabricated by xurography for evaluation of dermal fibroblast cell migration and wound closure"
+    {
+      "title": "Microfluidic and Lab on-a-Chip Systems for Cutaneous Wound Healing Studies",
+      "url": "https://www.nature.com/articles/s41598-020-73055-7"
+    },
+    {
+      "title": "An on-chip wound healing assay fabricated by xurography for evaluation of dermal fibroblast cell migration and wound closure",
+      "url": "https://www.mdpi.com/1999-4923/13/6/793"
+    }
   ],
 
   "contact": {
     "headline": "Get in Touch",
     "text": "I'm open to project coordination and management roles, especially in healthtech and innovation-driven environments. Let's connect.",
-    "linkedin": "https://www.linkedin.com/in/ghazalmonfared",
-    "linkedinLabel": "linkedin.com/in/ghazalmonfared"
+    "linkedin": "https://www.linkedin.com/in/ghazalmonfared"
   }
 }
